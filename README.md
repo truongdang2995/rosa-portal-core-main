@@ -60,14 +60,37 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+```bash
+# Create a new project with Vite
+npm create vite@latest core-portal --template react-ts
+# or with yarn
+yarn create vite core-portal --template react-ts
 
-Simply open [Lovable](https://lovable.dev/projects/3b21fbf3-5b9e-4812-b61b-217518c369e9) and click on Share -> Publish.
+# Navigate to project directory
+cd core-portal
+```
 
-## Can I connect a custom domain to my Lovable project?
+### Step 2: Install dependencies
 
-Yes, you can!
+````bash
+# Using npm
+npm install
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Step 3: Install additional required packages
+
+#### UI Libraries
+```bash
+# Install UI component libraries
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
+npm install antd
+npm install react-bootstrap bootstrap
+npm install axios
+````
+
+#### Routing
+
+```bash
+# Install React Router
+npm install react-router-dom
+```
